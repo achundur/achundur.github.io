@@ -117,7 +117,6 @@ footer {
     text-align:  center;
     background-color: rgb(243, 243, 243);
     margin-top: 50px;
-
 }
 
 
@@ -425,8 +424,9 @@ footer {
     position: absolute;
     margin-left: 20%;
     margin-top: 50px;
-}
+}f
 #complete-payment{
     color: white;
     background-color:rgb(79, 34, 5);
+
 }
