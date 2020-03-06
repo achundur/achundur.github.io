@@ -18,6 +18,7 @@ function Order(flavor, glaze, amount) {
         detailNode.appendChild(document.createTextNode(this.flavor))
         detailNode.appendChild(document.createElement("br"))
         detailNode.appendChild(document.createTextNode(this.glaze))
+
         detailNode.className = "details"
 
         var editNode = document.createElement("a")
@@ -27,9 +28,15 @@ function Order(flavor, glaze, amount) {
         detailNode.appendChild(document.createElement('br'))
         detailNode.appendChild(editNode)
         
+        var grandTotal = document.createElement("p")
+        grandTotal.appendChild(document.createTextNode("$" + this.amount * 1.50))
+
+
+
         // newOrder.appendChild(document.createTextNode(this.glaze));
         newOrder.appendChild(amountNode);
         newOrder.appendChild(detailNode)
+        newOrder.appendChild(grandTotal)
      
         // myCartDiv.appendChild(newOrder);
 
