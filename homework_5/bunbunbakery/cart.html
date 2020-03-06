@@ -6,7 +6,8 @@
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab"
 	rel="stylesheet">
-	
+    <!-- javascript -->
+    <script src="main.js" type="text/javascript"></script>
 	<title>bun bun bakery</title>
 		<meta charset="UTF-8">
 	</head>
@@ -19,20 +20,23 @@
 
     </header>
     <body>
+
+        
+           
         <div class="cart" id="cart-page">
             <h1>cart</h1>
-            <div class="order-1" >
+            <h5 class="cart" id="num-items"> items in cart: 0 </h5>
+            <div class="order-1">
                 <p class="amount">
                     <b>x3</b>
                 </p>
                 <div class="details">
-                    <b>ORIGINAL</b>
+                    original
                     <br>
-                    SUGAR-MILK
+                    Sugar-Milk
                     <br>
-                    <p id="change-edit" >
-                        <a href="products.html">EDIT</a>
-                        <a href="products.html">REMOVE</a>
+                    <p class="change-edit" >
+                        <a href="blackberryproduct.html">EDIT</a>
                     </p>
                 </div>
                 
@@ -40,19 +44,25 @@
                     <b>$9.50</b>
                 </p>
             </div>
+            <!-- <p id="total">TOTAL <br><b>$9.50</b></p> -->
+            <p style="align: center">
+                <a href="cart.html" id="complete-payment"><b>complete payment</b></a>
+            </p>
+    
         </div>
-        <div id="complete-payment">
-            <p>complete payment</p>
+
+
+
         </div>
 
     </body>
 
+    
     <footer>
         <p>address goes here</p>
         <p>copyright bun bun bakery. All rights reserved</p>
         <p>email@email.com</p>
     </footer>
-
 
 
 </html>

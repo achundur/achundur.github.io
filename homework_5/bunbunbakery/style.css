@@ -381,9 +381,11 @@ footer {
     margin-top: 50px;
 }
 
-/* num-items{
+#num-items{
     text-align: center;
-} */
+    font-size: 14px;
+    position: relative;
+}
 
 #checkout-text{
     color: rgba(181, 115, 54, 1);
@@ -429,12 +431,17 @@ button{
 #cart-page{
     width: 60%;
     align-self: center;
-    position: absolute;
     margin-left: 20%;
     margin-top: 50px;
-}f
+    margin-bottom: 100px;
+}
 #complete-payment{
-    color: white;
-    background-color:rgb(79, 34, 5);
+    background-color: white;
+    padding: 10px;
+    /* border-radius: 50px; */
+    color:rgba(181, 115, 54, 1);
+    text-decoration: none;
+    font-size: 22px;
+
 
 }
