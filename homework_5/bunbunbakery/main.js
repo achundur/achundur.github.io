@@ -47,6 +47,9 @@ function Order(flavor, glaze, amount) {
 }
 
 function addItem() {
+    var flavorInput = document.getElementById("flavors");
+    var flavorInputValue = flavorInput.options[flavorInput.selectedIndex].text;
+
     var glazeInput = document.getElementById("options");
     
     var glazeInputValue = glazeInput.options[glazeInput.selectedIndex].text;
@@ -64,9 +67,15 @@ function addItem() {
     }
 
 
-    var newOrder = new Order("blackberry", glazeInputValue, amountInputValue);
+    var newOrder = new Order(flavorInputValue, glazeInputValue, amountInputValue);
     console.log('tetst', newOrder)
     console.log(newOrder.addToCart());
+
+
+    var numberOfItems = document.getElementById("num-items")
+    console.log(document.getElementsByClassName("order-1").length)
+    numberOfItems.textContent = "items in cart: " + document.getElementsByClassName("order-1").length
+
 
     // newItem.appendChild(document.createTextNode(itemInput.value));
     // orderList.appendChild(newItem);
