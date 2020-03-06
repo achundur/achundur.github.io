@@ -6,7 +6,8 @@
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab"
 	rel="stylesheet">
-	
+    <!-- javascript -->
+    <script src="main.js" type="text/javascript"></script>
 	<title>bun bun bakery</title>
 		<meta charset="UTF-8">
 	</head>
@@ -54,20 +55,20 @@
                     <img src="3.png" display="inline" class="numbers">
                     choose number of buns
                     <section id="choose-amount">
-                        <input type="radio" name="cheese" id="yes" value="1">
+                        <input type="radio" id="yes" value="1">
                         <label for="1">1 bun</label>
                         <br>
-                        <input type="radio" name="cheese" id="3" value="3">
+                        <input type="radio"  id="3" value="3">
                         <label for="3">3 buns</label>
                         <br>
-                        <input type="radio" name="cheese" id="6" value="6">
+                        <input type="radio"  id="6" value="6">
                         <label for="6">6 buns</label>
                         <br>
-                        <input type="radio" name="cheese" id="12" value="12">
+                        <input type="radio"  id="12" value="12">
                         <label for="12">12 buns</label>
                     </section>
                 </p>
-                <p id="add-item">add item</p>
+                <button onclick="addItem(this)">add item</button>
             </div>
         <div class="cart">
             <h1>cart</h1>
