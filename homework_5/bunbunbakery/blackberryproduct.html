@@ -45,7 +45,7 @@
                     <label >pick a glaze</label>
                     <select name="bun" id="options">
                       <option value="None">None</option>
-                      <option value="Vanilla-Milk">Vanilla-Milk</option>
+                      <option value="Vanilla-Milk" selected>Vanilla-Milk</option>
                       <option value="Double-Chocolate">Double-Chocolate</option>
                       <option value="Sugar-Milk">Sugar-Milk</option>
                     </select>
@@ -55,22 +55,22 @@
                     <img src="3.png" display="inline" class="numbers">
                     choose number of buns
                     <section id="choose-amount">
-                        <input type="radio" id="yes" value="1">
+                        <input name="amount" type="radio" id="1" value="1">
                         <label for="1">1 bun</label>
                         <br>
-                        <input type="radio"  id="3" value="3">
+                        <input name="amount" type="radio"  id="3" value="3">
                         <label for="3">3 buns</label>
                         <br>
-                        <input type="radio"  id="6" value="6">
+                        <input name="amount" type="radio"  id="6" value="6">
                         <label for="6">6 buns</label>
                         <br>
-                        <input type="radio"  id="12" value="12">
+                        <input name="amount" type="radio"  id="12" value="12">
                         <label for="12">12 buns</label>
                     </section>
                 </p>
                 <button onclick="addItem(this)">add item</button>
             </div>
-        <div class="cart">
+        <div class="cart" id="my-cart">
             <h1>cart</h1>
             <div class="order-1">
                 <p class="amount">
@@ -81,7 +81,7 @@
                     <br>
                     SUGAR-MILK
                     <br>
-                    <p id="change-edit" >
+                    <p class="change-edit" >
                         <a href="products.html">EDIT</a>
                     </p>
                 </div>
@@ -91,7 +91,7 @@
                 </p>
             </div>
             <!-- <p id="total">TOTAL <br><b>$9.50</b></p> -->
-            <p id="checkout" align="right">
+            <p id="checkout" >
                 <a href="cart.html" id=checkout-text><b>checkout</b></a>
             </p>
     
