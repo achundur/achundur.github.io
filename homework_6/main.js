@@ -22,8 +22,9 @@ function Order(flavor, glaze, amount) {
         detailNode.className = "details"
 
         var editNode = document.createElement("a")
-        editNode.href = "products.html"
-        editNode.appendChild(document.createTextNode("EDIT"))
+        editNode.href = "#"
+        editNode.onclick = function(event){console.log(event.target); deleteItem(event.target); return false;}
+        editNode.appendChild(document.createTextNode("DELETE"))
         editNode.className = "change-edit"
         detailNode.appendChild(document.createElement('br'))
         detailNode.appendChild(editNode)
@@ -80,6 +81,13 @@ function addItem() {
     // newItem.appendChild(document.createTextNode(itemInput.value));
     // orderList.appendChild(newItem);
 }
+
+function deleteItem(clickedObject){
+    clickedObject.parentElement.parentElement.remove();
+    console.log("parent", clickedObject.parentElement.parentElement.parentElement)
+
+}
+
 
 
 // function deleteListItem(item) {
