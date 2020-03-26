@@ -84,7 +84,11 @@ function addItem() {
 
 function deleteItem(clickedObject){
     clickedObject.parentElement.parentElement.remove();
-    console.log("parent", clickedObject.parentElement.parentElement.parentElement)
+    console.log("parent", clickedObject.parentElement.parentElement.parentElement);
+    var updateNumberOfItems = document.getElementById("num-items");
+    updateNumberOfItems.textContent="items in cart: " + document.getElementsByClassName("order-1").length
+    console.log("num", updateNumberOfItems)
+    // numberOfItems.textContent = "items in cart: " + document.getElementsByClassName("order-1").length - 1
 
 }
 
