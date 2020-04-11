@@ -5,7 +5,15 @@
 body, html{
     height: 100%;
 }
-
+p{
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size:17px;
+    color: white;
+}
 .headings{
 
     font-family: "PlayFair Display";
@@ -13,7 +21,6 @@ body, html{
     font-weight: normal;
     font-size: 53px;
     color: white;
-    
 }
 
 
@@ -44,6 +51,9 @@ body, html{
 
 #start-page-image{
     background-image: url(start_background.jpg);
-
     background-color: rgb(0, 0, 0);
 }
+
+/**APOLLO&DAPHNE**/
+
+
