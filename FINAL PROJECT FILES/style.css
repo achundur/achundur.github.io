@@ -12,9 +12,8 @@ body, html{
     font-style: italic;
     font-weight: normal;
     font-size: 53px;
-    line-height: 192px;
     color: white;
-    padding: 20px;
+    
 }
 
 
@@ -29,18 +28,22 @@ body, html{
 
 
 /**START PAGE**/
-#gallery-walk{
-    font-size: 144px;
-    margin-top: auto;
-    margin-bottom: auto;
-    z-index: auto;
-    position: absolute;
-    top: 30%;
 
+#gallery-walk {
+    font-size: 70px;
+    z-index: auto;
 }
+
+@media (min-width:768px){
+    #gallery-walk {
+        font-size: 144px;
+        z-index: auto;
+    }
+}
+
 
 #start-page-image{
     background-image: url(start_background.jpg);
-    opacity: 0.5;
+
     background-color: rgb(0, 0, 0);
 }
