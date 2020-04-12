@@ -35,6 +35,6 @@ function onClick_BackToIntro(event){
     var galleryItem=$(event.target).attr("data-adhiti");
     console.log(galleryItem);
     $("#gItemDetail").attr( "style", "display: none;" );
-    $("#gItemIntro").show();
+    $("#gItemIntro").show(700);
 }
 /**use switch expression to put in all the cases */
