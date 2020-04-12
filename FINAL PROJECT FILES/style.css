@@ -11,7 +11,7 @@ p{
     font-weight: normal;
     font-size: 15px;
     line-height: 17px;
-    
+    padding-top: 5px;
     color: #525151;
 }
 
@@ -119,3 +119,16 @@ color: #525151;
     color: #525151;
 }
 
+/**ARTIST PROFILE**/
+
+.profile-name{
+    font-size:  70px;
+    font-style: italic;
+    line-height: 70px;
+}
+
+#artist-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
