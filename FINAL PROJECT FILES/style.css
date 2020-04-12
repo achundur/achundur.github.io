@@ -4,6 +4,7 @@
 /* source code (with edits) from: https://www.w3schools.com/howto/howto_css_full_page.asp */
 body, html{
     height: 100%;
+
 }
 p{
     font-family: Helvetica;
@@ -131,4 +132,15 @@ color: #525151;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.artist-images-container{
+    display: flex;
+    flex-direction: column
+}
+
+.artist-images{
+    flex: 1 1 auto;
+    overflow-y: scroll;
+    height: 100px;
 }

@@ -48,8 +48,10 @@
              
 
                 <div class="col-sm-4 border border-warning">
-                    <div class="d-flex flex-wrap flex-column h-100 align-content-center ">
-                        <p class="my-auto">
+                    <div class="d-flex flex-wrap flex-column h-100 align-content-center my-auto">
+                        <h5 class="card-title"><span class="special-headings" style="padding: top 5px;">profile</span></h5>  
+
+                        <p class="">
                             Gian Lorenzo (or Gianlorenzo) Bernini was an 
                             Italian sculptor and architect. 
                             While a major figure in the world of architecture, 
@@ -107,46 +109,22 @@
                 </div>
 
                 <div class="col-sm-4 border border-warning">
-                    <div  class="d-flex flex-wrap flex-column h-100 align-content-sm-start h-100">
-                        <img class="img-fluid" alt="Responsive image" style="padding: 5px;" src="hades_persephone.jpg">
-                        <img class="img-fluid" alt="Responsive image" style="padding: 5px;"src="david.jpg">
-                        <img class="img-fluid" alt="Responsive image" style="padding: 5px;"src="bernini_sculpture.jpg">
-                  
+                    <div  class="d-flex flex-wrap flex-column h-100 align-content-sm-start h-100 artist-images-container">
+                        <div class="artist-images" style="padding-top: 10px;">
+                            <img class="img-fluid" alt="Responsive image" style="padding: 5px;" src="hades_persephone.jpg">
+                            <img class="img-fluid" alt="Responsive image" style="padding: 5px;"src="david.jpg">
+                            <img class="img-fluid" alt="Responsive image" style="padding: 5px;"src="bernini_sculpture.jpg">    
+                        </div>
+
                     </div><!--end of right column flex container-->
 
-                </div>
+                </div><!--end of right column-->
 
 
                    
              
-
-            </div><!--end of row-->
-
-            <div class="row">
-
-            </div><!--end of row-->
-
-            <div class="row">
-
-            </div><!--end of row-->
-        
-        </div> 
+        </div>  <!--end of row flex container-->
             
-
-
-
-        
-        <script>
-            $( "#showr" ).click(function() {
-              $( ".grr" ).first().show( 3000, function showNext() {
-                $( this ).next( ".grr" ).show( 3000, showNext );
-              });
-            });
-             
-            $( "#hidr" ).click(function() {
-              $( ".grr" ).hide( 3000 );
-            });
-            </script>         
     </body>
 
     <footer>
