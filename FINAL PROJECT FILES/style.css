@@ -120,6 +120,18 @@ color: #525151;
     color: #525151;
 }
 
+.continue-reading{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    line-height: 11px;
+    float: right;
+
+color: #525151;
+}
 /**ARTIST PROFILE**/
 
 .profile-name{

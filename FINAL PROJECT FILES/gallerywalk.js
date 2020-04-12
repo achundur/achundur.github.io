@@ -4,7 +4,10 @@
  * link the click event to the onClick_LearnMore function**/
  
 $( document ).ready(function() {
-    $("a.learn-more-artist").on("click",onClick_LearnMore)
+    $("a.learn-more-artist").on("click",onClick_LearnMore);
+    $("a.back-to-intro").on("click",onClick_BackToIntro);
+    $("a.continue-reading").on("click",onClick_ContinueReading);
+    $("a.back-to-details").on("click",onClick_BackToDetails);
     //console.log( "ready!" );
 });
 
@@ -26,15 +29,24 @@ function onClick_LearnMore(event){
 //https://api.jquery.com/animate/
 }
 
-$( document ).ready(function() {
-    $("a.back-to-intro").on("click",onClick_BackToIntro)
-    //console.log( "ready!" );
-});
 
 function onClick_BackToIntro(event){
-    var galleryItem=$(event.target).attr("data-adhiti");
-    console.log(galleryItem);
     $("#gItemDetail").attr( "style", "display: none;" );
     $("#gItemIntro").show(700);
 }
-/**use switch expression to put in all the cases */
+
+
+/**CONTINUE READING */
+
+
+function onClick_ContinueReading(event){
+    console.log("continue reading is working")
+    $("#gallery-item").attr( "style", "display: none;" );
+    $("#artist-profile").show(700);
+}
+
+function onClick_BackToDetails(event){
+    console.log("continue reading is working")
+    $("#artist-profile").attr( "style", "display: none;" );
+    $("#gallery-item").show(700);
+}
