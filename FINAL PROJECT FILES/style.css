@@ -14,6 +14,23 @@ p{
     font-size:17px;
     color: white;
 }
+
+a.learn-more-artist{
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size:17px;
+    color: white;
+    font-weight: bold;  
+}
+
+a.learn-more-artist:hover{
+    color: rgba(82, 81, 81, 1);
+}
+
+
 .headings{
 
     font-family: "PlayFair Display";
