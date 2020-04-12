@@ -128,10 +128,11 @@ color: #525151;
     line-height: 70px;
 }
 
-#artist-title{
+.artist-title{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .artist-images-container{
@@ -142,5 +143,9 @@ color: #525151;
 .artist-images{
     flex: 1 1 auto;
     overflow-y: scroll;
-    height: 100px;
+    height: 500px;
 }
+.image{
+    width: 100%;
+}
+/* https://stackoverflow.com/questions/14962468/how-can-i-combine-flexbox-and-vertical-scroll-in-a-full-height-app */
