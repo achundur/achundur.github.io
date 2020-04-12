@@ -102,6 +102,16 @@ a.learn-more-artist:hover{
 
 .inner-headings{
     font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 71px;
+
+color: #525151;
+}
+
+.artist-name-inner{
+    font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
     font-size: 26px;

@@ -1,0 +1,80 @@
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>show demo</title>
+  <style>
+  div {
+    background: #def3ca;
+    margin: 3px;
+    width: 80px;
+    display: none;
+    float: left;
+    text-align: center;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+ 
+<button id="showr">Show</button>
+<button id="hidr">Hide</button>
+<div>Hello 3,</div>
+<div>how</div>
+<div>are</div>
+<div>you?</div>
+ 
+<script>
+$( "#showr" ).click(function() {
+  $( "div" ).first().show( 3000, function showNext() {
+    $( this ).next( "div" ).show( 3000, showNext );
+  });
+});
+ 
+$( "#hidr" ).click(function() {
+  $( "div" ).hide( 3000 );
+});
+</script>
+ 
+</body>
+</html>
