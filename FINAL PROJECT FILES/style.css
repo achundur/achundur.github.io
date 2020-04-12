@@ -6,6 +6,16 @@ body, html{
     height: 100%;
 }
 p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    
+    color: #525151;
+}
+
+.by-artist{
     font-family: "Helvetica";
     font-style: normal;
     font-weight: normal;
@@ -74,5 +84,28 @@ a.learn-more-artist:hover{
 /**APOLLO&DAPHNE**/
 
 .art-info{
-    
+
 }
+
+.special-headings{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: 3px solid;
+    color: #525151;
+
+}
+
+.inner-headings{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+    color: #525151;
+}
+
