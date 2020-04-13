@@ -1,20 +1,28 @@
 
+body, html{
+    height: 100%;
 
+}
 p{
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 17px;
     padding-top: 5px;
     color: #525151;
 }
-
+a{
+    color: #525151;
+}
+a:hover{
+    color: rgb(140, 177, 212);
+}
 h1{
     font-family: Playfair Display;
     font-style: italic;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 50px;
     line-height: 17px;
     padding-top: 5px;
     color: #525151
