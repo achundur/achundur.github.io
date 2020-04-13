@@ -2,13 +2,16 @@
 
 /**when document is ready, for every a element in tehe class "learn-more-artist",
  * link the click event to the onClick_LearnMore function**/
- 
+$(function(){
+    $('.js-timeline').Timeline({startItem:3});
+  });
 $( document ).ready(function() {
     $("a.learn-more-artist").on("click",onClick_LearnMore);
     $("a.back-to-intro").on("click",onClick_BackToIntro);
     $("a.continue-reading").on("click",onClick_ContinueReading);
     $("a.back-to-details").on("click",onClick_BackToDetails);
     $("div[data-adhiti-date]").on("click", onClick_GoToGalleryItem);
+    
     //console.log( "ready!" );
 });
 
