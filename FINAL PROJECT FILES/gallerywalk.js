@@ -8,6 +8,7 @@ $( document ).ready(function() {
     $("a.back-to-intro").on("click",onClick_BackToIntro);
     $("a.continue-reading").on("click",onClick_ContinueReading);
     $("a.back-to-details").on("click",onClick_BackToDetails);
+    $("div[data-adhiti-date]").on("click", onClick_GoToGalleryItem);
     //console.log( "ready!" );
 });
 
@@ -49,4 +50,10 @@ function onClick_BackToDetails(event){
     console.log("continue reading is working")
     $("#artist-profile").attr( "style", "display: none;" );
     $("#gallery-item").show(700);
+}
+
+function onClick_GoToGalleryItem(event){
+    console.log("clicked on date");
+    var date=$(event.target).attr("data-adhiti-date");
+    console.log(date);
 }
