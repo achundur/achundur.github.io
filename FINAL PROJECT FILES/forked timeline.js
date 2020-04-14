@@ -94,9 +94,11 @@
                 var srchStr = "div[data-time='" + clickYear + "']";
                 var galleryItmURL = $(srchStr);
 
-                //console.log(galleryItmURL)
-                var galHref=(galleryItmURL.attr("data-adhiti-timelineItem"));
-                window.location.href =galHref;
+                console.log(galleryItmURL)
+				var galHref=(galleryItmURL.attr("data-adhiti-timelineItem"));
+				console.log(galHref);
+				window.location.href =galHref;
+				
                 return;
                 //end adhiti hack
 				self.autoplay_clear();

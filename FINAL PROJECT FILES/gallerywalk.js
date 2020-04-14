@@ -1,9 +1,15 @@
 
-
 /**when document is ready, for every a element in tehe class "learn-more-artist",
  * link the click event to the onClick_LearnMore function**/
 $(function(){
-    $('.js-timeline').Timeline({startItem:3});
+    console.log("window", window.location.href);
+    console.log("title", $("title")[0].text);
+    // var currentIndex=0;
+    // var pageTitle = $("title")[0].text
+    // if (pageTitle == "TESTING timeline"){
+    //     currentIndex = 4
+    // }
+    // $('.js-timeline').Timeline({startItem:currentIndex});
   });
 $( document ).ready(function() {
     $("a.learn-more-artist").on("click",onClick_LearnMore);
@@ -11,6 +17,16 @@ $( document ).ready(function() {
     $("a.continue-reading").on("click",onClick_ContinueReading);
     $("a.back-to-details").on("click",onClick_BackToDetails);
     $("div[data-adhiti-date]").on("click", onClick_GoToGalleryItem);
+    var currentIndex=0;
+    // var pageTitle = $("title")[0].text
+    // if (pageTitle == "TESTING timeline"){
+    //     currentIndex = 4
+    // }
+    var m = $("meta[name=galleryIndex]");    
+
+    currentIndex = m.attr("content");
+    console.log("currentIndex", currentIndex)
+    $('.js-timeline').Timeline({startItem:currentIndex});
     
     //console.log( "ready!" );
 });
