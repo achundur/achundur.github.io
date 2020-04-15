@@ -31,8 +31,8 @@
 
 .timeline-item {
   float: left;
-  width: 800px;
-  height: 400px;
+  width: 100px;
+  height: 50px;
   border: 1px solid #ddd;
   box-sizing: border-box; }
 
@@ -87,7 +87,7 @@
     font-size: 12px;
     transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .timeline-horizontal .timeline-dots button {
-      background: url("date-icon.png") bottom no-repeat;
+      background: url("circle_10px.png") bottom no-repeat;
       padding-bottom: 15px; }
     .timeline-vertical .timeline-dots button {
       background: url("date-icon-vertical.png") left no-repeat;
