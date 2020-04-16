@@ -52,10 +52,17 @@ a.learn-more-artist:hover{
     color: white;
 }
 
+.arrows{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 /* BREAKPOINTS FOR IMAGES */
 @media (max-width: 992px){
     .gItemPicture{
-        height: 200px;
+        height: 250px;
         width: auto;
         align-item: center;
     }
