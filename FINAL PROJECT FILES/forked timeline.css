@@ -1,11 +1,14 @@
 @charset "UTF-8";
 /*!
+************COPIED FROM (WITH EDITS):************
 	Timeline - v0.0.1
 	ilker Yılmaz
 	https://github.com/ilkeryilmaz/timeline
  */
 .timeline-container {
-  position: relative; }
+  position: relative;
+  margin-top: auto;
+ }
   .timeline-container::after {
     content: '';
     display: table;
@@ -41,19 +44,19 @@
   overflow: hidden; }
   .timeline-horizontal .timeline-dots-wrap {
     width: 100%;
-    height: 45px; }
+    height: 50px; }
   .timeline-vertical .timeline-dots-wrap {
     width: 65px;
     height: 100%;
     top: 0; }
   .timeline-dots-wrap.bottom {
-    bottom: -50px; }
+    bottom: 0px; }
   .timeline-dots-wrap.top {
-    top: -50px; }
+    top: 0px; }
   .timeline-dots-wrap.left {
-    left: -65px; }
+    left: 0px; }
   .timeline-dots-wrap.right {
-    right: -70px; }
+    right: 0px; }
 
 .timeline-dots {
   margin: 0;
@@ -72,22 +75,26 @@
     overflow: hidden; }
     .timeline-horizontal .timeline-dots li {
       float: left;
-      width: 50px;
+      width: 60px;
       text-align: center; }
+    .timeline-horizontal .timeline-dots li:hover {
+      color: rgb(33, 42, 52);
+    }
     .timeline-vertical .timeline-dots li {
       width: 100%; }
     .timeline-dots li.slide-active button {
-      color: #2972ca;
-      font-size: 15px; }
+      color: rgb(108, 117, 147);
+      font-size: 20px; }
+ 
   .timeline-dots button {
     cursor: pointer;
     border: none;
     outline: none;
-    color: #333;
-    font-size: 12px;
+    color: rgb(108, 117, 147);
+    font-size: 15px;
     transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .timeline-horizontal .timeline-dots button {
-      background: url("circle_10px.png") bottom no-repeat;
+      background: url("circleBlue.png") bottom no-repeat;
       padding-bottom: 15px; }
     .timeline-vertical .timeline-dots button {
       background: url("date-icon-vertical.png") left no-repeat;
@@ -105,3 +112,9 @@
   height: 400px;
   padding: 10px;
   border: 1px solid #ddd;  */
+
+
+/* adhiti's hacks*/
+body{
+  font-family: Helvetica;
+}

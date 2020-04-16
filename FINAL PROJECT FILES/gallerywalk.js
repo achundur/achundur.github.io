@@ -35,6 +35,8 @@ function onClick_LearnMore(event){
     var galleryItem=$(event.target).attr("data-adhiti");
     console.log(galleryItem);
     $("#gItemIntro").attr( "style", "display: none;" );
+    $("#gItemTimeline").attr( "style", "display: none;" );
+    
     $("#gItemDetail").show(3000);
     //$("#gItemDetail").fadeIn(3000,"linear");
     /*
@@ -52,7 +54,8 @@ function onClick_LearnMore(event){
 
 function onClick_BackToIntro(event){
     $("#gItemDetail").attr( "style", "display: none;" );
-    $("#gItemIntro").show(700);
+    $("#gItemIntro").show(700); 
+    $("#gItemTimeline").show(700);
 }
 
 
