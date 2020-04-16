@@ -52,13 +52,19 @@ a.learn-more-artist:hover{
     color: white;
 }
 
-
+@media (min-width: 768px){
+    .background-img{
+        height: 150px;
+        width: auto;
+    }
+}
 .background-img{
     background-image: url(background.png);
     height: 100%;
+    width: 100%;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-repeat: repeat;
     z-index: -1;
 }
 
