@@ -52,18 +52,33 @@ a.learn-more-artist:hover{
     color: white;
 }
 
-@media (min-width: 768px){
-    .background-img{
-        height: 150px;
+/* BREAKPOINTS FOR IMAGES */
+@media (max-width: 992px){
+    .gItemPicture{
+        height: 200px;
         width: auto;
+        align-item: center;
     }
 }
+
+@media (min-width: 992px){
+    .gItemPicture{
+        height: 500px;
+    }
+}
+
+@media(min-width: 1200px){
+    .gItemPicture{
+        height: 875px;
+    }
+}
+
 .background-img{
     background-image: url(background.png);
     height: 100%;
-    width: 100%;
+
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: repeat;
     z-index: -1;
 }
