@@ -60,7 +60,7 @@ a.learn-more-artist:hover{
 }
 
 /* BREAKPOINTS FOR IMAGES */
-@media (max-width: 992px){
+/* @media (max-width: 992px){
     .gItemPicture{
         height: 250px;
         width: auto;
@@ -76,13 +76,13 @@ a.learn-more-artist:hover{
 
 @media(min-width: 1200px){
     .gItemPicture{
-        height: 875px;
+        height: 876px;
     }
-}
+} */
 
 .background-img{
     background-image: url(background.png);
-
+    /* height: 100%; */
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -90,11 +90,14 @@ a.learn-more-artist:hover{
 }
 
 #titleandartist{
-    margin-top: 70px;
+    margin-top: 70px; 
 }
 
 /************START PAGE************/
-
+.gItemPicture{
+    width: 100%;
+    height: auto;
+}
 #gallery-walk {
     font-size: 100px;
     z-index: auto;
@@ -172,7 +175,7 @@ color: #525151;
     }
 .btn{
     border-color:#525151;
-    border-width: 4px;
+    border-width: 2px;
     border-radius: 0px;
 }
     .btn:hover{
