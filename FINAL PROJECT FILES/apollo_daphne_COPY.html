@@ -19,22 +19,23 @@
         <link rel="stylesheet" type="text/css" href="forked timeline.css">
 
     <meta name="galleryIndex" content=1>
-	<title>Gallery Walk | Apollo & Daphne </title>
+	<title>Gallery Walk | Apollo & Daphne</title>
 		
 	</head>
 
     <body>
 
-        <div class="container-fluid h-100" style="border:5px solid red; background-color:gray">
-            <div id="gallery-item" class="row h-100 flex-wrap-reverse">
+        <div class="container-fluid h-100 overflow-auto background-img" style="border:5px solid red;  background-color:gray">
+            <div id="gallery-item" class="row h-100">
                 
-                <div style="border:5px solid green;" class="col-sm-4">
-                    
-                    <img class="gItemPicture" src="apollo_daphne.png" class="img-fluid">
+                <div style="border:5px solid green;" class="col-sm-4 order-3 order-sm-1">
+                    <div class="d-flex  h-100">
+                        <img class="img-fluid my-auto" src="apollo_daphne.png">
+                    </div>
                 </div>
              
 
-                <div style="border:5px solid blue;" class="col-sm-1">
+                <div style="border:5px solid blue;" class="col-sm-1 order-2">
                     <div class="d-flex flex-wrap flex-column h-100 align-content-center">
 
          
@@ -42,17 +43,18 @@
                         
                 </div>
 
-                <div style="border:5px solid blueviolet;" class="col-sm-7">
-                    <divclass="d-flex flex-wrap flex-column h-100 align-content-sm-start">
-                        
-                        <div id="gItemIntro"   class="my-auto">                           
+                <div style="border:5px solid blueviolet;" class="col-sm-7 order-1 order-sm-3">
+                  <!--- <div class="d-flex flex-wrap flex-column h-100 align-content-sm-start">-->
+                    <div id="gItemIntro"  class="row h-100">   
+                        <div  class="col mt-auto">                           
                                 <a data-adhiti="p-2 daphne" class="learn-more-artist">learn more</a>
                                 <div id="titleandartist">
                                     <h1 class="p-2 headings ml-5">Apollo and Daphne</h1>
                                     <p class="p-2 ml-5 by-artist" >by bernini</p>
                                 </div>                                                                         
                         </div>
-                        <div id="gItemTimeline" class="mt-auto p-2 timeline-container timeline-theme-1">
+                        <div class="w-100"></div>
+                        <div id="gItemTimeline" class="col p-2 timeline-container timeline-theme-1">
                             <div class="timeline js-timeline">
                             <div data-time="start" data-adhiti-timelineItem="home.html"></div>
                             <div data-time="1625" data-adhiti-timelineItem="apollo_daphne_COPY.html"></div>
@@ -61,78 +63,87 @@
                             <div data-time="3000" data-adhiti-timelineItem="testingTimeline.html"></div>
                             </div>
                         </div><!-- /.timeline-container -->
-
-                        <div id="gItemDetail" class="my-auto pl-5" style="display:none" >
-
-                            <div class="row row-cols-1 row-cols-md-2">
-                                <div>
-                                    <a data-adhiti="backDaphne" class="back-to-intro"> <img class="arrows" src="gray_arrow_up.png"></a>
-                                </div>
-                                <h5 class="ml-5"><span class="special-headings">title</span></h5>
-                                <h1 class="inner-headings ml-5 mb-5">Apollo and Daphne</h1>
-                                 
-                                <div class="col mb-4">
-                                     <div class="card art-info bg-transparent border-0">
-                                         <h5 class="card-title"><span class="special-headings">artist</span></h5>
-                                         <div class="card-body">
-                                             <p class="artist-name-inner"> Gian Lorenzo Bernini</p>
-                                             <p>
-                                                 Born: 7 December 1598<br>
-                                                 Died: 28 November 1680
-                                             </p>
-                                             <p> 
-                                                 Gian Lorenzo Bernini was an Italian sculptor, 
-                                                 a founder of French Impressionist 
-                                                 painting and the most consistent 
-                                                 and prolific practitioner of the 
-                                                 movement's philosophy.
-     
-                                             </p>
-                                             <a data-adhiti="continueReading" class="continue-reading btn">continue reading -</a>
-                                         </div>
-                                     </div>
-                                </div>
-                                <div class="col mb-4">
-                                     <div class="card art-info bg-transparent border-0">
-                                         <h5 class="card-title"><span class="special-headings">materials</span></h5>
-                                         <div class="card-body">
-                                         <p> 
-                                             Marble
-                                         </p>
-                                         <p>96 inches tall</p>
-                                         </div>
-                                     </div>
-                                </div>
-                                <div class="col mb-4">
-                                     <div class="card art-info bg-transparent border-0">
-                                         <h5 class="card-title"><span class="special-headings">description</span></h5>
-                                         <div class="card-body">
-                                             <p>
-                                                 Between 1622 and 1625, Gian Lorenzo 
-                                             Bernini sculpted a Baroque life-sized 
-                                             marble statue entitled Apollo and Daphne. 
-                                             Apollo clutches Daphne's hip, pursuing 
-                                             her as she flees to escape him.
-                                             </p> 
-                                         </div>
-                                     </div>
-                                </div>
-                                <div class="col mb-4">
-                                     <div class="card art-info bg-transparent border-0">
-                                         <h5 class="card-title"><span class="special-headings">tags</span></h5>
-                                         <div class="card-body">
-                                         <p style="text-decoration: underline">
-                                             sculpture, Baroque, Myth, marble, Borghese
-                                         </p>
-                                         </div>
-                                     </div>
-                                </div>
-                             </div>
-                             
-                  
-                         </div><!--end of right column flex container-->
-    
                     </div>
+
+                        <div id="gItemDetail" class="row h-100 pl-5"  style="display:none" >
+                            <div class="col my-auto">
+                                <div class="row">
+                                    <div class=col>
+                                        <a data-adhiti="backDaphne" class="back-to-intro"> <img class="arrows" src="gray_arrow_up.png"></a>
+                                    </div>
+                                </div>
+                                <div class="row">  
+                                    <div class="col">
+                                    <h5 class="ml-5"><span class="special-headings">title</span></h5>
+                                </div>
+                                </div>                              
+                                <div class="row"> 
+                                    <div class="col">
+                                    <h1 class="inner-headings ml-5 mb-5">Apollo and Daphne</h1>
+                                    </div>
+                                </div>   
+                                <div class="row"> 
+                                    <div class="col-lg-6 mb-4">
+                                        <div class="card art-info bg-transparent border-0">
+                                            <h5 class="card-title"><span class="special-headings">artist</span></h5>
+                                            <div class="card-body">
+                                                <p class="artist-name-inner"> Gian Lorenzo Bernini</p>
+                                                <p>
+                                                    Born: 7 December 1598<br>
+                                                    Died: 28 November 1680
+                                                </p>
+                                                <p> 
+                                                    Gian Lorenzo Bernini was an Italian sculptor, 
+                                                    a founder of French Impressionist 
+                                                    painting and the most consistent 
+                                                    and prolific practitioner of the 
+                                                    movement's philosophy.
+        
+                                                </p>
+                                                <a data-adhiti="continueReading" class="continue-reading btn">continue reading -</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6  mb-4">
+                                        <div class="card art-info bg-transparent border-0">
+                                            <h5 class="card-title"><span class="special-headings">materials</span></h5>
+                                            <div class="card-body">
+                                            <p> 
+                                                Marble
+                                            </p>
+                                            <p>96 inches tall</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col-lg-6  mb-4">
+                                        <div class="card art-info bg-transparent border-0">
+                                            <h5 class="card-title"><span class="special-headings">description</span></h5>
+                                            <div class="card-body">
+                                                <p>
+                                                    Between 1622 and 1625, Gian Lorenzo 
+                                                Bernini sculpted a Baroque life-sized 
+                                                marble statue entitled Apollo and Daphne. 
+                                                Apollo clutches Daphne's hip, pursuing 
+                                                her as she flees to escape him.
+                                                </p> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6  mb-4">
+                                        <div class="card art-info bg-transparent border-0">
+                                            <h5 class="card-title"><span class="special-headings">tags</span></h5>
+                                            <div class="card-body">
+                                            <p style="text-decoration: underline">
+                                                sculpture, Baroque, Myth, marble, Borghese
+                                            </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                    
+                         </div><!--end of right column flex container-->  
+                   
 
 
 
@@ -254,7 +265,7 @@
 
 
         
-        <script>
+        <!-- <script>
             $( "#showr" ).click(function() {
               $( ".grr" ).first().show( 3000, function showNext() {
                 $( this ).next( ".grr" ).show( 3000, showNext );
@@ -264,11 +275,10 @@
             $( "#hidr" ).click(function() {
               $( ".grr" ).hide( 3000 );
             });
-            </script>         
+        </script>          -->
     </body>
 
     <footer>
 
     </footer>
-
 </html>
