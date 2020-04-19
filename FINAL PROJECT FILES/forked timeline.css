@@ -94,7 +94,7 @@
     font-size: 15px;
     transition: all 1s cubic-bezier(0.455, 0.03, 0.515, 0.955); }
     .timeline-horizontal .timeline-dots button {
-      background: url("Rectangle 10.png") bottom no-repeat;
+      background: url("icons/timeline/Rectangle 10.png") bottom no-repeat;
       padding-bottom: 15px; }
     .timeline-vertical .timeline-dots button {
       background: url("date-icon-vertical.png") left no-repeat;

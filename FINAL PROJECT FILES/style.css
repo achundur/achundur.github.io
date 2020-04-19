@@ -174,14 +174,14 @@ color: #525151;
     .continue-reading:hover{
         color: white;
     }
-.btn{
+a.btn{
     border-color:#525151;
     border-width: 2px;
     border-radius: 0px;
 }
-    .btn:hover{
-        color: red;
-    }
+a.btn:hover{
+    color: red;
+}
 
 /**********ARTIST PROFILE************/
 

@@ -32,10 +32,10 @@ $( document ).ready(function() {
 });
 
 function animateItemDetails(){
-    $("#b1").css('visibility','visible').animate({opacity:1.0},1500,function(){
-        $("#b2").css('visibility','visible').animate({opacity:1.0},1500,function(){
-            $("#b3").css('visibility','visible').animate({opacity:1.0},1500, function(){
-                $("#b4").css('visibility','visible').animate({opacity:1.0},1500,function(){
+    $("#b1").css('visibility','visible').animate({opacity:1.0},800,function(){
+        $("#b2").css('visibility','visible').animate({opacity:1.0},800,function(){
+            $("#b3").css('visibility','visible').animate({opacity:1.0},800, function(){
+                $("#b4").css('visibility','visible').animate({opacity:1.0},800,function(){
 
                 })
             })
@@ -55,7 +55,7 @@ function onClick_LearnMore(event){
     var galleryItem=$(event.target).attr("data-adhiti");
     console.log(galleryItem);
     $("#gItemIntro").attr( "style", "display: none;" );
-    $("#gItemDetail").fadeIn(1500,"linear", animateItemDetails);
+    $("#gItemDetail").fadeIn(800,"linear", animateItemDetails);
     
     
     // $("#gItemTimeline").attr( "style", "display: none;" );
@@ -146,7 +146,7 @@ function onClick_BackToDetails(event){
     console.log("continue reading is working")
     $("#artist-profile").attr( "style", "display: none;" );
     $("#gallery-item").fadeIn(700, function(){
-        $("#gItemDetail").fadeIn(1500,"linear", animateItemDetails);
+        $("#gItemDetail").fadeIn(800,"linear", animateItemDetails);
     });
 
 }
