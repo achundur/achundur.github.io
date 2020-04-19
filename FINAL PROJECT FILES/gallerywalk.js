@@ -89,7 +89,45 @@ function onClick_LearnMore(event){
 
 function onClick_BackToIntro(event){
     $("#gItemDetail").attr( "style", "display: none;" );
-    $("#gItemIntro").show(3000); 
+    // $("#gItemIntro").show(2000); 
+    $("#gItemIntro").css('opacity', 0).slideDown('slow').animate(
+      { opacity: 1 },
+      { queue: false, duration: 'slow' }
+    );
+    // $("#learn-more").hide();
+    // $("#wrapper").css("visibility", "visible").animate(
+    //     {position: relative},
+    //     {overflow: hidden},
+    //     {width: "600px"},
+    //     {height: "370px"}, 
+    // );
+
+    // $("#learn-more").css("visibility", "visible").animate(
+    //     {position: absolute},
+    //     {left: -"600px"},
+    //     {width: "600px"},
+    //     {height: "370px"},
+    //     {background: blue},
+        // {webkit-animation: slide 0.5s forwards},
+        // {webkit-animation-delay: 2s},
+        // {animation: slide 0.5 s forwards},
+        // {animation-delay: 2s},
+    // );
+        
+    //     {@-webkit-keyframes learn-more {
+    //         100% { left: 0; }
+    //     }
+    // };
+        
+    //     {@keyframes learn-more {
+    //         100% { left: 0; }
+    //     }
+    // };
+
+
+    // );
+
+    // .css('visibility','visible').animate({opacity:1.0},1500
     // $("#gItemTimeline").show(700);
 }
 
