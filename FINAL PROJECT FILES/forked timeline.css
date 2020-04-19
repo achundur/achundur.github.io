@@ -83,7 +83,7 @@
     .timeline-vertical .timeline-dots li {
       width: 100%; }
     .timeline-dots li.slide-active button {
-      color: rgb(108, 117, 147);
+      color: rgb(255, 255, 255);
       font-size: 20px; }
  
   .timeline-dots button {
