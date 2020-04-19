@@ -78,7 +78,7 @@
       width: 60px;
       text-align: center; }
     .timeline-horizontal .timeline-dots li:hover {
-      color: rgb(33, 42, 52);
+      color: rgb(255, 255, 255);
     }
     .timeline-vertical .timeline-dots li {
       width: 100%; }
