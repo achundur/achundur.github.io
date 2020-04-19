@@ -31,14 +31,49 @@ $( document ).ready(function() {
     //console.log( "ready!" );
 });
 
+function animateItemDetails(){
+    $("#b1").css('visibility','visible').animate({opacity:1.0},2000,function(){
+        $("#b2").css('visibility','visible').animate({opacity:1.0},2000,function(){
+            $("#b3").css('visibility','visible').animate({opacity:1.0},2000, function(){
+                $("#b4").css('visibility','visible').animate({opacity:1.0},2000,function(){
+
+                })
+            })
+        })
+    })
+}
+
+function hideItemDetails(){
+    $("#b1").css({'visibility':'hidden', opacity:0.0});
+    $("#b2").css({'visibility':'hidden', opacity:0.0});
+    $("#b3").css({'visibility':'hidden', opacity:0.0});
+    $("#b4").css({'visibility':'hidden', opacity:0.0});
+}
+
+
 function onClick_LearnMore(event){
     var galleryItem=$(event.target).attr("data-adhiti");
     console.log(galleryItem);
     $("#gItemIntro").attr( "style", "display: none;" );
-    $("#gItemTimeline").attr( "style", "display: none;" );
+    $("#gItemDetail").fadeIn(2000,"linear", animateItemDetails);
     
-    $("#gItemDetail").show(3000);
-    //$("#gItemDetail").fadeIn(3000,"linear");
+    
+    // $("#gItemTimeline").attr( "style", "display: none;" );
+    
+    // $("#gItemDetail").show(3000);
+    
+    // $("#gItemDetail").fadeIn(2000,"linear",function(){
+    //     $("#b1").css('visibility','visible').animate({opacity:1.0},2000,function(){
+    //         $("#b2").css('visibility','visible').animate({opacity:1.0},2000,function(){
+    //             $("#b3").css('visibility','visible').animate({opacity:1.0},2000, function(){
+    //                 $("#b4").css('visibility','visible').animate({opacity:1.0},2000,function(){
+
+    //                 })
+    //             })
+    //         })
+    //     })
+    // });
+
     /*
     $( "#gItemDetail" ).animate({
 
@@ -54,8 +89,8 @@ function onClick_LearnMore(event){
 
 function onClick_BackToIntro(event){
     $("#gItemDetail").attr( "style", "display: none;" );
-    $("#gItemIntro").show(700); 
-    $("#gItemTimeline").show(700);
+    $("#gItemIntro").show(3000); 
+    // $("#gItemTimeline").show(700);
 }
 
 
@@ -65,13 +100,17 @@ function onClick_BackToIntro(event){
 function onClick_ContinueReading(event){
     console.log("continue reading is working")
     $("#gallery-item").attr( "style", "display: none;" );
+    hideItemDetails();
     $("#artist-profile").show(700);
 }
 
 function onClick_BackToDetails(event){
     console.log("continue reading is working")
     $("#artist-profile").attr( "style", "display: none;" );
-    $("#gallery-item").show(700);
+    $("#gallery-item").fadeIn(700, function(){
+        $("#gItemDetail").fadeIn(2000,"linear", animateItemDetails);
+    });
+
 }
 
 function onClick_GoToGalleryItem(event){
