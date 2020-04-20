@@ -8,9 +8,9 @@ p{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 17px;
+    line-height: 22px;
     padding-top: 5px;
-    color: #525151;
+    color: #767676;
 }
 a{
     color: #525151;
@@ -19,8 +19,8 @@ a:hover{
     color: rgb(140, 177, 212);
 }
 h1{
-    font-family: Playfair Display;
-    font-style: italic;
+    font-family: Avenir;
+    /* font-style: italic; */
     font-weight: normal;
     font-size: 50px;
     line-height: 17px;
