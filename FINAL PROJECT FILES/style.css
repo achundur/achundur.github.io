@@ -6,6 +6,15 @@ body, html{
     height: 100%;
 
 }
+a{
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    padding-top: 5px;
+    color: #525151;
+}
 p{
     font-family: Helvetica;
     font-style: normal;
@@ -188,10 +197,17 @@ a.btn:hover{
 /**********ARTIST PROFILE************/
 
 .profile-name{
-    font-size:  70px;
+    font-size:  60px;
     font-style: italic;
     line-height: 70px;
 }
+
+/* @media (min-width:1400px){
+    .profile-name {
+        font-size: 70px;
+        line-height: 70px;
+        z-index: auto;
+    } */
 
 .artist-title{
     display: flex;
