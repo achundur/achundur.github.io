@@ -11,7 +11,7 @@ $(function(){
     // }
     // $('.js-timeline').Timeline({startItem:currentIndex});
   });
-$( document ).ready(function() {
+$(document).ready(function() {
     $("a.learn-more-artist").on("click",onClick_LearnMore);
     $("a.back-to-intro").on("click",onClick_BackToIntro);
     $("a.continue-reading").on("click",onClick_ContinueReading);
