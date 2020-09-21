@@ -11,7 +11,8 @@
 	<body>
 		<div id="page">
 			<!--Nav Bar-->
-			<div class="menu-holder">
+			<!-- <div class="menu-holder"> not sure why, but this class was causing issues with visibility-->
+			<div>
 				<nav id="header-main-menu">
 					<ul class="main-menu ">
 						<li>
@@ -22,23 +23,27 @@
 						<li>
 							<a href="schedule.html" class="navbar">Courses</a>
 						</li>
+						<!-- <li>
+							<a href="index.html">About</a>
+						</li> -->
 						<li>
-							<!-- <a href="index.html">About</a> -->
+							<a href="hobbies.html" class="active navbar">Hobbies</a>
 						</li>
+						<!-- <li>
+							<a href="index.html">Blog</a>
+						</li> -->
 						<li>
-							<a href="hobbies.html" class="navbar">Hobbies</a>
-						</li>
-						<li>
-							<!-- <a href="index.html">Blog</a> -->
-						</li>
-						<li>
-							<a href="contact.html" class="active navbar">Contact</a>
+							<a href="contact.html" >Contact</a>
 						</li>
 					</ul>
 				</nav>
             </div>
+			
 			<br>
-			<h1 class= "center-text" style="margin: 0px;">  More fun activities </h1>
+			<div>
+				<h1 class= "center-text">  More fun activities </h1>
+			</div>
+
 			
 			<!-- Books I read -->
 			<div class="center-mid-2">
@@ -48,7 +53,7 @@
 				</p>
 				
 				
-				<ul id="book-list center-text">
+				<ul id="book-list" class="center-text">
 					<li class="book-list-element"> Top Left <i>Where the Crawdads Sing</i> by Delia Owens</li>
 					<li class="book-list-element"> Top Right <i>The 7 1/2 Deaths of Evelyn Hardcastle</i> by Stuart Turton</li>
 					<li class="book-list-element"> Bottom Left <i>The Ten Thousand Doors of January</i> by Alix E. Harrow</li>
@@ -79,11 +84,11 @@
 					</tr>
 				</table>
 					
-				<p>
+				<p class="center-text" >
 					<br>
 					Honorable Mentions include: 
 				</p>
-				<ul>
+				<ul class="center-text">
 					<li class="book-list-element"><i>Sapiens: A Brief History of Humankind</i> by Yuval Noah Harari</li>
 					<li class="book-list-element"><i>Migrations</i> by Charlotte McConaghy</li>
 					<li class="book-list-element"><i>Little Fires Everywhere</i> by Celeste Ng</li>

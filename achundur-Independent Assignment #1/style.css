@@ -62,7 +62,7 @@ li {
 
 h1.center-text {
     font-family: 'Playfair Display', serif;
-    font-size: 550%;
+    font-size: 450%;
     color: black;
 }
 
@@ -103,10 +103,10 @@ th, td {
 }
 tr.head th {
     /* color: #fff; */
-    background-color: #434989;
-    border-bottom: 2px solid #547ca0;
-    border-right: 1px solid #749abe;
-    border-top: 1px solid #90b4d6;
+    background-color: rgb(152, 152, 204);
+    border-bottom: 1px solid rgb(101, 101, 153);
+    border-right: 1px solid rgb(101, 101, 153);
+    border-top: 1px solid rgb(101, 101, 153);
     text-align: center;
     color: white;
     /* text-shadow: -1px -1px 1px #666666; */
@@ -115,7 +115,7 @@ td {
     /* text-shadow: 1px 1px 1px #ffffff; */
 }
 tr.even td, tr.even th {
-    background-color: #b9c4de;}
+    background-color: rgb(187, 187, 224)}
 tr.head th:first-child {
     /* WebKit is a browser engine used in Apple's Safari browser, Amazon 
       Kindle e-book reader, BlackBerry Browser in OS 6 and above.
@@ -295,6 +295,26 @@ input[type="submit"]:hover {
     padding-bottom: 15px;
     padding-top: 5px;
     }
+
+a#readmore {
+    border-style: solid;
+    padding: 15px;
+    color: rgb(152, 152, 204);
+    text-decoration: none;
+    align: center;
+    margin: 10px;
+}
+a#readmore:hover{
+    background-color: rgb(152, 152, 204);
+    color: white;
+    border-color: rgb(152, 152, 204);
+}
+
+#button {
+    text-align: center;
+
+}
+
 /*
 
 3.3. Hobbies section
@@ -354,7 +374,7 @@ input[type="submit"]:hover {
 
 .center-mid-3{
     width: 940px;
-    background-color: #a7a9d8;
+    background-color: rgb(196, 196, 228);
     padding-bottom: 15px;
     padding-top: 5px;
 
