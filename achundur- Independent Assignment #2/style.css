@@ -1,0 +1,130 @@
+
+
+/* Global Styles */
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #cd542c;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ /* Buttons */
+ .button {
+     padding: 15px;
+     border: 2px;
+     border-style: solid;
+     border-color:  #cd542c;
+     color: #cd542c;
+     align: center;
+     margin-top: 10px;
+     border-radius: 5px;
+ }
+
+ .button:hover {
+     background-color: #a12506;
+     color: white;
+ }
+
+
+/* Navigation */
+
+.navigation {
+    background-color: #f5c894;
+    padding: 25px;
+    align: center;
+}
+
+.navlinks {
+    float: center;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navlinks:hover {
+    background-color: #a85714;
+    border-radius: 5px;
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+    color: #7C190F;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+/* Header Image */
+
+.header-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+/* Home Page */
+
+#site-title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration: 0.5px;
+    z-index: 2;
+}
+
+.home-card {
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+    border-style: dotted;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+
+.left-section {
+    float: left;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.right-section {
+    float: right;
+    width: 50%;
+}
+
+.card-image{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-card:after {
+    clear: both;
+}
