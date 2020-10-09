@@ -8,7 +8,7 @@
 
 h1, h2, h3 {
     font-family: Georgia, serif;
-    color: #cd542c;
+    color: #ef7152;
 }
 
 h1{
@@ -32,7 +32,9 @@ h2 {
     font-family: Helvetica;
     /* color: #7C190F; */
     color: rgb(52, 52, 52);
-    font-weight: 400;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 
@@ -41,7 +43,7 @@ a {
     color: #7C190F;
 }
 a:hover{
-    color: #cd542c;
+    color: #ef7152;
 }
 
 p {
@@ -88,13 +90,12 @@ img {
 
  /* Buttons */
  .button {
-     padding: 15px;
+     padding: 12px;
      border: 2px;
      border-style: solid;
-     /* border-color:  #cd542c;
-     color: #cd542c; */
-     border-color: white;
-     color: white;
+     float: right;
+     border-color: inherit;
+     color: inherit;
      align: center;
      margin-top: 20px;
      margin-bottom: 0px;
@@ -105,11 +106,14 @@ img {
  }
 
  .button:hover {
-     background-color: white;
-     color: #ba2d5a;
+     background-color: inherit;
+     color: #white;
  }
 
 
+
+
+ 
 /* Navigation */
 
 .navigation {
@@ -146,6 +150,8 @@ img {
     margin-right: 50px;
 }
 
+
+
 /* Header Image */
 
 .header-image {
@@ -153,6 +159,9 @@ img {
     height: auto;
     overflow: hidden;
 }
+
+
+
 
 
 /* Home Page */
@@ -173,11 +182,8 @@ img {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* padding: 10px; */
-    /* border: 2px; */
-    /* border-style: dotted; */
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 5px;
     border-color: #7C190F;
     overflow: auto;
@@ -213,23 +219,29 @@ img {
     clear: both;
 }
 
-#card-1 {
-    background-color: #e06f92;
+/* customizing cards on the front page */
+#card-1 h2{
+    /* background-color: #e06f92; */
+    color:  #9b3152;
+
     /* color: white; */
 }
 
-#card-2 {
-    background-color: #e7ba77;
+#card-2 h2{
+    color: #c0630c;
     /* color: white; */
 }
 
-#card-3 {
-    background-color: #a3c4bf;
+#card-3 h2{
+   color: #60afa3;
 }
 
-#card-4 {
-    background-color: #c7c36f;
+#card-4 h2{
+    color: #999438;
 }
+
+
+
 /* World Foods Page */
 
 .row {
