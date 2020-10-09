@@ -1,4 +1,5 @@
 
+/* The CSS selectors are organized by Global styles, Buttons, Navigation, and by each Web Page */
 
 /* Global Styles */
 *{
@@ -28,6 +29,10 @@ h1{
 h2 {
     font-size: 42px;
     font-style: italic;
+    font-family: Helvetica;
+    /* color: #7C190F; */
+    color: rgb(52, 52, 52);
+    font-weight: 400;
 }
 
 
@@ -86,25 +91,29 @@ img {
      padding: 15px;
      border: 2px;
      border-style: solid;
-     border-color:  #cd542c;
-     color: #cd542c;
+     /* border-color:  #cd542c;
+     color: #cd542c; */
+     border-color: white;
+     color: white;
      align: center;
-     margin-top: 10px;
+     margin-top: 20px;
+     margin-bottom: 0px;
      margin-right: auto;
      margin-left: auto;
      border-radius: 5px;
+
  }
 
  .button:hover {
-     background-color: #a12506;
-     color: white;
+     background-color: white;
+     color: #ba2d5a;
  }
 
 
 /* Navigation */
 
 .navigation {
-    background-color: #f5c894;
+    background-color: #ffffff;
     padding: 25px;
     align: center;
 }
@@ -118,8 +127,8 @@ img {
 }
 
 .navlinks:hover {
-    background-color:  #a12506;
-    border-radius: 5px;
+    background-color:  #ef7152;
+    border-radius: 50px;
     color: white;
 }
 
@@ -128,6 +137,13 @@ img {
     color:  #a12506;
     text-decoration: underline;
     text-decoration-style: wavy;
+}
+
+#site-logo {
+    font-size: 36px;
+    font-family: Georgia;
+    font-color: #a12506;
+    margin-right: 50px;
 }
 
 /* Header Image */
@@ -154,29 +170,37 @@ img {
 }
 
 .home-card {
-    margin: 10px;
-    padding: 10px;
-    border: 2px;
-    border-style: dotted;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+    /* border: 2px; */
+    /* border-style: dotted; */
     border-radius: 5px;
     border-color: #7C190F;
     overflow: auto;
     background-color: #F2F2F2;
 }
 
+.card-text {
+    padding: 25px;
+    margin: auto;
+}
 
 .left-section {
     float: left;
-    padding: 10px;
+    /* padding: 10px; */
     width: 45%;
-    text-align: center;
+    text-align: left;
 }
 
 
 .right-section {
     float: right;
-    width: 50%;
-    text-align: center;
+    width: 45%;
+    text-align: left;
 }
 
 .card-image{
@@ -189,6 +213,23 @@ img {
     clear: both;
 }
 
+#card-1 {
+    background-color: #e06f92;
+    /* color: white; */
+}
+
+#card-2 {
+    background-color: #e7ba77;
+    /* color: white; */
+}
+
+#card-3 {
+    background-color: #a3c4bf;
+}
+
+#card-4 {
+    background-color: #c7c36f;
+}
 /* World Foods Page */
 
 .row {
