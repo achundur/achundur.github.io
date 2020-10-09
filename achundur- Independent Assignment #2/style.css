@@ -14,14 +14,62 @@ h1{
     font-size: 64px;
 }
 
+.page-main-headings {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: left;
+    color: #7C190F;
+}
+.heading-container {
+    height: 500px;
+}
+
+
 h2 {
-    font-size: 36px;
+    font-size: 42px;
+    font-style: italic;
 }
 
 
 a {
     text-decoration: none;
-    color: black;
+    color: #7C190F;
+}
+a:hover{
+    color: #cd542c;
+}
+
+p {
+    font-size: 18px;
+}
+
+.footer-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+#page {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.copy {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.references {
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
  /* Buttons */
@@ -33,6 +81,8 @@ a {
      color: #cd542c;
      align: center;
      margin-top: 10px;
+     margin-right: auto;
+     margin-left: auto;
      border-radius: 5px;
  }
 
@@ -55,17 +105,18 @@ a {
     color: black;
     text-decoration: none;
     padding: 10px;
+    text-align: center;
 }
 
 .navlinks:hover {
-    background-color: #a85714;
+    background-color:  #a12506;
     border-radius: 5px;
     color: white;
 }
 
 .active {
     font-weight: bold;
-    color: #7C190F;
+    color:  #a12506;
     text-decoration: underline;
     text-decoration-style: wavy;
 }
@@ -99,7 +150,9 @@ a {
     border: 2px;
     border-style: dotted;
     border-radius: 5px;
+    border-color: #7C190F;
     overflow: auto;
+    background-color: #F2F2F2;
 }
 
 
@@ -108,15 +161,13 @@ a {
     padding: 10px;
     width: 45%;
     text-align: center;
-    vertical-align: middle;
-    display: inline-block;
-    margin-top: auto;
-    margin-bottom: auto;
 }
+
 
 .right-section {
     float: right;
     width: 50%;
+    text-align: center;
 }
 
 .card-image{
@@ -127,4 +178,8 @@ a {
 
 .home-card:after {
     clear: both;
+}
+
+/* History Page */
+
 }
