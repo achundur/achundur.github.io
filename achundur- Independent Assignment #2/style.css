@@ -15,15 +15,14 @@ h1{
 }
 
 .page-main-headings {
-    position: absolute;
-    top: 30%;
+    /* position: absolute; */
+    /* top: 40%; */
+    margin-top: 75px;
     width: 100%;
     text-align: left;
     color: #7C190F;
 }
-.heading-container {
-    height: 500px;
-}
+
 
 
 h2 {
@@ -41,14 +40,24 @@ a:hover{
 }
 
 p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
+footer {
+    background-color:  #F2F2F2;
+    padding: 25px;
+
+}
+
+
 .footer-text {
-    margin-left: auto;
-    margin-right: auto;
+
     margin-top: 20px;
     margin-bottom: 20px; 
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #page {
@@ -180,6 +189,48 @@ img {
     clear: both;
 }
 
-/* History Page */
+/* World Foods Page */
 
+.row {
+    overflow: auto;
+}
+
+.col {
+    width: 30%;
+    margin: 10px;
+}
+
+.col-left {
+    float: left;
+}
+.col-mid {
+    /* margin: auto; */
+    float: left;
+
+}
+.col-right {
+    float: left;
+
+}
+
+.row:after {
+    clear: both;
+}
+
+.food-name {
+    font-family: Georgia;
+    font-weight: medium;
+    font-size: 24px;
+}
+
+.food-origin {
+    font-family: Helvetica;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.read-further {
+    text-align: right;
+    float: right;
+    text-decoration: underline;
 }
