@@ -1,0 +1,86 @@
+
+
+* {
+    font-family: Lato, Tahoma, sans-serif; 
+}
+
+
+/* .col-1, .col-2, .col-3 {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .co1-1 {
+      width: 60%;
+      -webkit-order: 2;
+      order: 2;
+    }
+  
+    .col-2 {
+      width: 40%;
+      -webkit-order: 1;
+      order: 1;
+    }
+  
+    .col-3 {
+      width: 100%;
+      -webkit-order: 3;
+      order: 3;
+    }
+  }
+  
+  
+  @media (min-width: 800px) {
+    .col-2 {
+      width: 20%;
+    }
+  
+    .col-3 {
+      width: 20%;
+    }
+  } */
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Spotlight Page */
+h1 {
+    font-size: 64px;
+    font-weight: medium;
+}
+
+
+.container {
+    width: 1920px;
+}
+.header-image {
+    margin-bottom: 10px;
+}
+.header-text{
+    
+    position: relative;
+    text-align: bottom;
+    /* background: #343a40; */
+
+}
+
+/* Sagrada Familia */
+.archive-header{
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+}
+
+.content{
+    vertical-align:center;
+}
+
+#center-text{
+    text-align: center;
+}
+
+.img{
+    margin-right: auto;
+    margin-left: auto;
+}
