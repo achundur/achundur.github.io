@@ -8,6 +8,11 @@ html, body {
   overflow-x: hidden;
 }
 
+.navbar {
+  margin-bottom: 20px;
+  overflow: scroll;
+  flex-flow: row wrap;
+}
 
   // Extra small devices (portrait phones, less than 576px)
   // No media query since this is the default in Bootstrap
@@ -21,12 +26,7 @@ html, body {
     .header-text{
       font-size: 24px;
     }
-    .nav-link{
-      font-size: 0.5rem;
-    }
-    .navbar-brand{
-      font-size: 0.75rem
-    }
+
 
    }
   
@@ -44,12 +44,6 @@ html, body {
       width: 25%
     }
 
-    .nav-link{
-      font-size: 1rem;
-    }
-    .navbar-brand{
-      font-size: 1rem
-    }
    }
   
   // Extra large devices (large desktops, 1200px and up)
