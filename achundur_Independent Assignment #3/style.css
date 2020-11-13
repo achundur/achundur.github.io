@@ -8,9 +8,11 @@ html, body {
   overflow-x: hidden;
 }
 
+
   // Extra small devices (portrait phones, less than 576px)
   // No media query since this is the default in Bootstrap
   
+
   // Small devices (landscape phones, 576px and up)
   @media (min-width: 576px) { 
     .spotlight-col{ 
@@ -19,6 +21,13 @@ html, body {
     .header-text{
       font-size: 24px;
     }
+    .nav-link{
+      font-size: 0.5rem;
+    }
+    .navbar-brand{
+      font-size: 0.75rem
+    }
+
    }
   
   // Medium devices (tablets, 768px and up)
@@ -26,12 +35,20 @@ html, body {
     .spotlight-col{ 
       width: 33.3%
     }
+
    }
   
   // Large devices (desktops, 992px and up)
   @media (min-width: 992px) { 
     .spotlight-col{ 
       width: 25%
+    }
+
+    .nav-link{
+      font-size: 1rem;
+    }
+    .navbar-brand{
+      font-size: 1rem
     }
    }
   
@@ -49,6 +66,7 @@ html, body {
     padding-bottom: 10px;
     /* width: 100%; */
 }
+
 
 
 /* Spotlight Page */
