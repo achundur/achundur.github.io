@@ -9,49 +9,12 @@ html, body {
 }
 
 .navbar {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   overflow: scroll;
   flex-flow: row wrap;
 }
 
-  // Extra small devices (portrait phones, less than 576px)
-  // No media query since this is the default in Bootstrap
-  
 
-  // Small devices (landscape phones, 576px and up)
-  @media (min-width: 576px) { 
-    .spotlight-col{ 
-      /* width:100% */
-    }
-    .header-text{
-      font-size: 24px;
-    }
-
-
-   }
-  
-  // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) { 
-    .spotlight-col{ 
-      width: 33.3%
-    }
-
-   }
-  
-  // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) { 
-    .spotlight-col{ 
-      width: 25%
-    }
-
-   }
-  
-  // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) { 
-    .spotlight-col{ 
-      width: 25%
-    }
-   }
 
 .container{
     margin-top: 20px;
@@ -71,24 +34,70 @@ h1 {
     margin-bottom: auto;
 }
 
-
-.header-image {
-    margin-bottom: 10px;
+.card{
+  margin-bottom: 10px;
 }
-.header-text{
-    
-    /* position: relative; */
-    /* text-align: bottom; */
-    /* background: #343a40; */
+.card-header {
+    border-radius: 0;
+    padding: 0px;
+}
+.card-img-overlay{
+    position: absolute;
+    top: 20%;
     margin-top: auto;
     margin-bottom: auto;
 
+
 }
+
+
+#header-text{
+  background: #60a3af;
+  font-size: 18px;
+  font-weight:bold;
+  padding: 10px;
+
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+
+.container-spotlight {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+
+@media (min-width: 800px) {
+  .container-spotlight {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #header-text{
+    font-size: 64px;
+    top: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-spotlight {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
 
 /* Sagrada Familia */
 .archive-header{
     font-weight: bold;
-    font-size: 64px;
+    font-size: 48px;
     text-align: center;
 }
 
@@ -105,7 +114,7 @@ h1 {
 img {
   max-width: 100%;
   height: auto;
-  margin: 10px;
+
   margin-right: auto;
   margin-left: auto;
 }
@@ -113,11 +122,13 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
-.container-img-gal{
-  /* width: 100%; */
+.img-gal{
+  margin: 10px;
 
 }
 
 .extra-sources{
   max-width: 100%;
 }
+
+

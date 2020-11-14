@@ -1,5 +1,5 @@
 <!-- Navbar, Cards, Carousel, and Breadcrumbs use the Bootstrap template and framework -->
-
+<!-- Mostly fluid responsive layout -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,7 +17,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Architecture Site Title</a>
+        <a class="navbar-brand" href="spotlight.html">Architecture Central</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,35 +29,28 @@
               <li class="nav-item">
                 <a class="nav-link" href="archive.html">Archive</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Gallery</a>
-              </li>
+              </li> -->
             </ul>
-            <!-- <form class="form-inline my-2 my-md-0">
-              <input class="form-control" type="text" placeholder="Search">
-            </form> -->
+
           </div>
     </nav>
 
     <div class="header-image">
-        <!-- <img class="header-image" src="images/Gaudi-pedrera.jpg">
-        <div class="container">
-            <h1>Learn about some of the most iconic buildings around the world.</h1>
-        </div> -->
-        <div class="card text-white">
+
+        <div class="card card-header text-white">
             <img class="card-img" src="images/Gaudi-pedrera.jpg" alt="La Pedrera">
             <div class="card-img-overlay container">
-                
-              <h1 class="header-text">Learn about some of the most iconic buildings around the world.</h1>
-            </div>
+                <h1 id="header-text">Learn about some of the most iconic buildings around the world.</h1>
           </div>
     </div>
 
-    <div class="container">
+    <div class="container-spotlight">
         <div class="row">
-            <div class="col spotlight-col">
+            <div class="col col-12 col-sm-12 col-md-6">
                 <div class="card mb-3">
-                    <img class="card-img-top" src="images/pantheon.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/original size/pantheon.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h2 class="card-title">Pantheon</h2>
                       <p class="card-text"><small class="text-muted">Location: Rome, Italy <br> Constructed in 125 CE</small></p>
@@ -71,9 +64,9 @@
                     </div>
                   </div>
             </div>
-            <div class="col spotlight-col">
+            <div class="col col-12 col-sm-12 col-md-6">
                 <div class="card mb-3">
-                    <img class="card-img-top" src="images/outsidee-top 1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="images/sagrada/original sizes/outsidee-top.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h2 class="card-title">Sagrada Familia</h2>
                       <p class="card-text"><small class="text-muted">Location: Barcelona, Spain <br> Construction still in progress</small></p>
@@ -88,44 +81,66 @@
                   </div>
             </div>
         </div>
-        <!-- <div class="row"> -->
-            <div class="col spotlight-col">
-                <div class="card mb-3">
-                    <img class="card-img-top" src="images/chennakeshava.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h2 class="card-title">Chennakeshava Temple</h2>
-                      <p class="card-text"><small class="text-muted">Location: Karnataka, India <br> Constructed in the 12th Century CE</small></p>
-                      <p class="card-text">
-                        “Belur is considered one of the peaks of architectural 
-                        achievements during the Hoysala period. The details of 
-                        the wall sculptures at the Temple will find many 
-                        references and depictions of important events from the 
-                        Mahabharata and the Ramayana.” <a target="_blank" href="https://www.karnataka.com/belur/chennakesava-temple/">(Source) </a>
-                      </p>
-                      <a target="_blank" href="https://www.karnataka.com/belur/chennakesava-temple/" class="btn btn-dark">More on Chennakeshava at Belur</a>
-                    </div>
+        <div class="container-spotlight">
+          <div class="row">
+            <div class="col col-12 col-lg-4">
+              <div class="card mb-3">
+                  <img class="card-img-top" src="images/orxan-musayev-HAQovEmAssU-unsplash.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h2 class="card-title">Heydar Aliyev Center</h2>
+                    <p class="card-text"><small class="text-muted">Location: Baku, Azerbaijan <br> Constructed in 2013</small></p>
+                    <p class="card-text">
+                      “Zaha Hadid Architects was appointed as design architects 
+                      of the Heydar Aliyev Center following a competition in 2007. 
+                      The Center, designed to become the primary building for the 
+                      nation’s cultural programs, breaks from the rigid and often 
+                      monumental Soviet architecture that is so prevalent in Baku, a
+                      spiring instead to express the sensibilities of Azeri 
+                      culture and the optimism of a nation that looks to the future."
+                      <a target="_blank" href="https://www.archdaily.com/448774/heydar-aliyev-center-zaha-hadid-architects">(Source)</a> 
+                    </p>
+                    <a target="_blank" href="https://www.archdaily.com/448774/heydar-aliyev-center-zaha-hadid-architects" class="btn btn-dark">More on Heydar Aliyev Center</a>
                   </div>
-            </div>
-            <div class="col spotlight-col">
-                <div class="card mb-3">
-                    <img class="card-img-top" src="images/guggenheim-bilbao.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h2 class="card-title">Guggenheim Bilbao</h2>
-                      <p class="card-text"><small class="text-muted">Location: Bilbao, Spain <br> Constructed in 1997</small></p>
-                      <p class="card-text">
-                        “Designed by Canadian American architect Frank Gehry, 
-                        the Guggenheim Museum Bilbao building represents a 
-                        magnificent example of the most groundbreaking 
-                        20th-century architecture. The Museum represents an 
-                        architectural landmark of audacious configuration and 
-                        innovating design, providing a seductive backdrop for 
-                        the art exhibited in it.”   <a target="_blank" href="https://www.guggenheim-bilbao.eus/en/the-building/the-construction">(Source) </a>
-                      </p>
-                      <a target="_blank" href="https://www.guggenheim-bilbao.eus/en/the-building/the-construction" class="btn btn-dark">Read more on Guggenheim Bilbao</a>
+                </div>
+          </div>
+              <div class="col col-md-6 col-lg-4">
+                  <div class="card mb-3">
+                      <img class="card-img-top" src="images/original size/chennakeshava.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h2 class="card-title">Chennakeshava Temple</h2>
+                        <p class="card-text"><small class="text-muted">Location: Karnataka, India <br> Constructed in the 12th Century CE</small></p>
+                        <p class="card-text">
+                          “Belur is considered one of the peaks of architectural 
+                          achievements during the Hoysala period. The details of 
+                          the wall sculptures at the Temple will find many 
+                          references and depictions of important events from the 
+                          Mahabharata and the Ramayana.” <a target="_blank" href="https://www.karnataka.com/belur/chennakesava-temple/">(Source) </a>
+                        </p>
+                        <a target="_blank" href="https://www.karnataka.com/belur/chennakesava-temple/" class="btn btn-dark">More on Chennakeshava at Belur</a>
+                      </div>
                     </div>
-                  </div>
-            </div>
-        <!-- </div> -->
+              </div>
+              <div class="col col-md-6 col-lg-4">
+                  <div class="card mb-3">
+                      <img class="card-img-top" src="images/original size/guggenheim-bilbao.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h2 class="card-title">Guggenheim Bilbao</h2>
+                        <p class="card-text"><small class="text-muted">Location: Bilbao, Spain <br> Constructed in 1997</small></p>
+                        <p class="card-text">
+                          “Designed by Canadian American architect Frank Gehry, 
+                          the Guggenheim Museum Bilbao building represents a 
+                          magnificent example of the most groundbreaking 
+                          20th-century architecture. The Museum represents an 
+                          architectural landmark of audacious configuration and 
+                          innovating design, providing a seductive backdrop for 
+                          the art exhibited in it.”   <a target="_blank" href="https://www.guggenheim-bilbao.eus/en/the-building/the-construction">(Source) </a>
+                        </p>
+                        <a target="_blank" href="https://www.guggenheim-bilbao.eus/en/the-building/the-construction" class="btn btn-dark">Read more on Guggenheim Bilbao</a>
+                      </div>
+                    </div>
+              </div>
+
+          </div>
     </div>
 
 
