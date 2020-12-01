@@ -1,0 +1,74 @@
+
+/* Problem 1 */
+
+#searchbarInput{
+    margin-bottom: 5px;
+    margin-top: 40px;
+    width: 100%;
+    padding: 15px;
+    
+}
+
+#searchList > li{
+    list-style: none;
+    padding: 15px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    border-style: solid;
+    border-color: rgb(194, 194, 194);
+    border-width: 0.01rem;
+    background: rgb(230, 230, 230);
+    font-size: 16px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+
+#searchList{
+    padding-left: 5px;
+}
+
+
+/* Problem 2 */
+
+#showList > li{
+    font-size: 24px;
+}
+
+#sortButton {
+    padding: 15px;
+    margin: 5px;
+    margin-top: 40px;
+    background-color: rgb(1, 68, 4);
+    border: none;
+    color: white;
+}
+
+
+/* Problem 3 */
+
+#colorButton {
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: rgb(204, 204, 255);
+    background-color:  rgb(255, 192, 203);
+    
+}
+
+/* Problem 4 */
+
+#messageButton {
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(16, 18, 165);
+    color: white;
+}
