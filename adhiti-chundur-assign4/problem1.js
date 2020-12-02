@@ -4,7 +4,7 @@ function search(){
 // Get input and store in variable
 var searchInput
 searchInput = document.getElementById("searchbarInput").value.toLowerCase()
-console.log(searchInput)
+
 // Get all of the list options and store it in an array / variable
 var buildings
 buildings = document.getElementsByTagName("li")
@@ -13,6 +13,7 @@ buildings = document.getElementsByTagName("li")
 
 // Loop through each building in the list
 for(i=0; i<buildings.length; i++){
+    // Set the actual text as a variable
     currentBuilding = buildings[i].firstChild.innerHTML.toLowerCase()
 
 
