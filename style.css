@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Tiltortion';
+    src: url('./webfont-tiltortion/Tiltortion.woff2') format('woff2'),
+         url('./webfont-tiltortion/Tiltortion.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
