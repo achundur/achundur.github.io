@@ -5,3 +5,70 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Trickster-Regular';
+    src:    url('Trickster-Regular.eot');
+    src:    url('Trickster-Regular.eot?#iefix') format('embedded-opentype'),
+            url('https://achundur.github.io/movieposters/webfonts-trickster/Trickster-Regular.woff') format('woff'),
+            url('https://achundur.github.io/movieposters/webfonts-trickster/Trickster-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Lack-regular';
+    src: url('https://achundur.github.io/movieposters/Webfonts-lack/Lack-Regular.woff2') format('woff2'),
+         url('https://achundur.github.io/movieposters/Webfonts-lack/Lack-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  @font-face {
+    font-family: 'lackitalic';
+    src: url('https://achundur.github.io/movieposters/Webfonts-lack/lack-italic-webfont.woff2') format('woff2'),
+         url('https://achundur.github.io/movieposters/Webfonts-lack/lack-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+    font-family: 'lack_lineitalic';
+    src: url('https://achundur.github.io/movieposters/Webfonts-lack/lack-line-italic-webfont.woff2') format('woff2'),
+         url('https://achundur.github.io/movieposters/Webfonts-lack/lack-line-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+    font-family: 'lack_lineregular';
+    src: url('https://achundur.github.io/movieposters/Webfonts-lack/lack-line-regular-webfont.woff2') format('woff2'),
+         url('https://achundur.github.io/movieposters/Webfonts-lack/lack-line-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  h1{
+    font-family: "Lack-regular";
+
+  }
+
+  h3{
+    font-size:1.75rem;
+  }
+  
+
+  .poster-btn{
+    background-color:blueviolet;
+  }
