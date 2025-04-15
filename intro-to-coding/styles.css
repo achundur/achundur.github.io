@@ -1,0 +1,9 @@
+body {
+    font-size: 24px;
+}
+
+
+a:hover {
+    color: rgb(235, 57, 223);
+    text-decoration: none;
+}

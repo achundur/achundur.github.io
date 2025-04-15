@@ -1,0 +1,21 @@
+body{
+    background-color:black
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(6, 200px);
+    width: 1200px;
+    padding: top 100px;
+    margin: auto;
+
+}
+
+
+img{
+    width:150px;
+}
+
+img:hover{
+    scale: 1.25;
+}
