@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    display:flex;
+    /* display:flex; */
     width: 100vw;
     margin:auto;
     height: 100vh;
@@ -40,8 +40,8 @@ body{
 } */
 
 .column {
-    flex: 35%;
-    /* max-width: 33%; */
+    /* flex: 35%; */
+    max-width: 33%;
     padding: 20px 20px;
     margin: 20px 3rem;
 
@@ -52,10 +52,10 @@ body{
   }
   
   .about-text{
-    display:flex;
-    margin-bottom:10px;
+    /* display:flex; */
+    /* margin-bottom:10px; */
     padding-bottom:5px;
-    max-width: 33%;
+    /* max-width: 33%; */
     
 
 
@@ -65,6 +65,30 @@ body{
   @media screen and (max-width: 768px) {
 
     .column {
+      /* flex: 50%; */
+      max-width: 100%;
+      padding: 10px 10px;
+      margin: 10px 0px;
+    }
+    .row{
+        flex-direction:column; 
+    }
+
+    /* .grid-container{
+        display:grid;
+        grid-template-columns:auto;
+        flex-direction:column; 
+        /* width: 1200px; */
+        /* padding: top 100px; */
+        /* margin: auto;  */
+    
+    } 
+
+
+
+  @media screen and (max-width: 992px) {
+
+    .column {
       flex: 100%;
       max-width: 100%;
       padding: 10px 20px;
@@ -72,6 +96,16 @@ body{
     }
     .row{
         flex-direction:column; 
+    }
+
+    .grid-container{
+        display:grid;
+        grid-template-columns:auto;
+        flex-direction:column; 
+        /* width: 1200px; */
+        /* padding: top 100px; */
+        margin: auto; 
+    
     }
 
   }
@@ -94,7 +128,10 @@ a:hover{
     text-decoration:none;
     margin-right:1.25rem;
 }
-
+#current-page{
+    color:blue;
+    text-decoration: line-through;
+}
 
 
 h1{
@@ -124,6 +161,43 @@ ul{
     line-height:2rem;
     margin-left:-20px;
 }
+
+.grid-container{
+    display:flex;
+    /* flex: 35%; */
+    /* max-width: 33%; */
+    /* padding: 20px 20px; */
+    /* margin: 20px 3rem; */
+    align-items: center;
+    
+
+}
+
+.row{
+    display:flex;
+}
+
+/* .grid-items{
+    
+
+} */
+
+.home-images{
+    /* flex: 35%; */
+    /* max-width: 33%; */
+    padding: 20px 20px;
+    margin: 20px 3rem;
+}
+
+img{
+    width:150px;
+}
+
+img:hover{
+    scale: 1.25;
+}
+
+
 
 footer h3{
     margin:1rem;
