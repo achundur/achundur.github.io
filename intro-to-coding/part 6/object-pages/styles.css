@@ -1,6 +1,15 @@
 @font-face {
-    font-family: Daubenton;
+    font-family: 'Daubenton';
     src: url(../Daubenton.otf);
+  }
+
+  @font-face {
+    font-family: 'Daubenton';
+    src: url('https://achundur.github.io/intro-to-coding/part%206/Daubenton.otf') format('otf'),
+         /* url('https://achundur.github.io/movieposters/Webfonts-lack/Lack-Regular.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  
   }
   
 
