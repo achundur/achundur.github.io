@@ -131,7 +131,7 @@ a:hover{
 
 
 .menu-items{
-    font-family: Daubenton;
+    font-family: 'Daubenton';
     font-size:1rem;
     text-decoration:none;
     margin-right:1.25rem;
@@ -143,12 +143,12 @@ a:hover{
 
 
 h1{
-    font-family: Daubenton;
+    font-family: 'Daubenton';
     font-size:2.25rem;
 }
 
 h3{
-    font-family: Daubenton;
+    font-family: 'Daubenton';
     font-size:1rem;
 }
 
@@ -161,7 +161,7 @@ p{
 
 .object-link{
     /* margin-bottom:1rem; */
-    font-family: Daubenton;
+    font-family: 'Daubenton';
     font-size:1rem;
 }
 ul{
