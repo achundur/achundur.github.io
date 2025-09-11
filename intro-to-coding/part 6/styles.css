@@ -1,8 +1,16 @@
-@font-face {
+/* @font-face {
     font-family: Daubenton;
     src: url(Daubenton.otf);
-  }
+  } */
   
+  @font-face {
+    font-family: 'Daubenton';
+    src: url('https://achundur.github.io/intro-to-coding/part%206/Daubenton.otf') format('otf');
+
+    font-weight: normal;
+    font-style: normal;
+  
+  }
 
 body{
     font-size: 24px;
