@@ -1,7 +1,7 @@
-/* @font-face {
+@font-face {
     font-family: Daubenton;
     src: url(Daubenton.otf);
-  } */
+  }
   
   @font-face {
     font-family: 'Daubenton';
@@ -161,7 +161,7 @@ p{
 
 .object-link{
     /* margin-bottom:1rem; */
-    font-family: 'Daubenton';
+    font-family: Daubenton;
     font-size:1rem;
 }
 ul{
