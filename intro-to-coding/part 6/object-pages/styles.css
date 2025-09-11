@@ -6,9 +6,9 @@
   @font-face {
     font-family: 'Daubenton';
     src: url('https://achundur.github.io/intro-to-coding/part%206/Daubenton.otf') format('otf');
-
-    font-weight: normal;
-    font-style: normal;
+    src: url('https://achundur.github.io/intro-to-coding/part%206/daubentonwebfont.woff') format('woff');
+    src: url('https://achundur.github.io/intro-to-coding/part%206/daubentonwebfont.ttf') format('ttf');
+    src: url('https://achundur.github.io/intro-to-coding/part%206/daubentonwebfont.svg') format('svg');
   
   }
   
